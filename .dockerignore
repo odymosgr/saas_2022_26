@@ -1,4 +1,5 @@
 node_modules
+db_volume
 Dockerfile
 docker-compose*
 .dockerignore
