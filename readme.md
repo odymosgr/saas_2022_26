@@ -9,6 +9,11 @@
 #### Close docker container
 `docker-compose down -v`
 
+## Connect to Frontend Server Bash
+`docker exec -it energy_live_frontend-server_1 bash`
+#### Setup database from bash
+`node database/setup.js`
+
 ## Production Environment
 
 #### Setup with docker
